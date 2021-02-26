@@ -6,4 +6,4 @@ try:
     if r.status_code == 200:
         print(r.text)
 except Exception as e:
-    print('404 not found', e)
+    print('ada error', e)
